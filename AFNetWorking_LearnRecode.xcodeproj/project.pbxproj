@@ -1,0 +1,739 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C24A11B1A1327F74979A0E4 /* Pods_AFNetWorking_LearnRecodeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45AC92472A19F735EC9346A9 /* Pods_AFNetWorking_LearnRecodeTests.framework */; };
+		C43E9737F2674FE922FC28EF /* Pods_AFNetWorking_LearnRecode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D168390CC60B6481155226A /* Pods_AFNetWorking_LearnRecode.framework */; };
+		D4A52ED5254A6E250062FBC6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A52ED4254A6E250062FBC6 /* AppDelegate.m */; };
+		D4A52ED8254A6E250062FBC6 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A52ED7254A6E250062FBC6 /* SceneDelegate.m */; };
+		D4A52EDB254A6E250062FBC6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A52EDA254A6E250062FBC6 /* ViewController.m */; };
+		D4A52EDE254A6E250062FBC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4A52EDC254A6E250062FBC6 /* Main.storyboard */; };
+		D4A52EE0254A6E2A0062FBC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4A52EDF254A6E2A0062FBC6 /* Assets.xcassets */; };
+		D4A52EE3254A6E2A0062FBC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4A52EE1254A6E2A0062FBC6 /* LaunchScreen.storyboard */; };
+		D4A52EE6254A6E2A0062FBC6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A52EE5254A6E2A0062FBC6 /* main.m */; };
+		D4A52EF0254A6E2A0062FBC6 /* AFNetWorking_LearnRecodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A52EEF254A6E2A0062FBC6 /* AFNetWorking_LearnRecodeTests.m */; };
+		D4A52EFB254A6E2A0062FBC6 /* AFNetWorking_LearnRecodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A52EFA254A6E2A0062FBC6 /* AFNetWorking_LearnRecodeUITests.m */; };
+		E3B41D5E58348A1F41315ED5 /* Pods_AFNetWorking_LearnRecode_AFNetWorking_LearnRecodeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C8F09CA818BA311CDDB2EF0 /* Pods_AFNetWorking_LearnRecode_AFNetWorking_LearnRecodeUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4A52EEC254A6E2A0062FBC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4A52EC8254A6E250062FBC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4A52ECF254A6E250062FBC6;
+			remoteInfo = AFNetWorking_LearnRecode;
+		};
+		D4A52EF7254A6E2A0062FBC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4A52EC8254A6E250062FBC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4A52ECF254A6E250062FBC6;
+			remoteInfo = AFNetWorking_LearnRecode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D168390CC60B6481155226A /* Pods_AFNetWorking_LearnRecode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AFNetWorking_LearnRecode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45AC92472A19F735EC9346A9 /* Pods_AFNetWorking_LearnRecodeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AFNetWorking_LearnRecodeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51059AF226824F56D62FEB7C /* Pods-AFNetWorking_LearnRecode-AFNetWorking_LearnRecodeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNetWorking_LearnRecode-AFNetWorking_LearnRecodeUITests.debug.xcconfig"; path = "Target Support Files/Pods-AFNetWorking_LearnRecode-AFNetWorking_LearnRecodeUITests/Pods-AFNetWorking_LearnRecode-AFNetWorking_LearnRecodeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5C8F09CA818BA311CDDB2EF0 /* Pods_AFNetWorking_LearnRecode_AFNetWorking_LearnRecodeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AFNetWorking_LearnRecode_AFNetWorking_LearnRecodeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F8D72E55F1D1C8C408BC182 /* Pods-AFNetWorking_LearnRecodeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNetWorking_LearnRecodeTests.debug.xcconfig"; path = "Target Support Files/Pods-AFNetWorking_LearnRecodeTests/Pods-AFNetWorking_LearnRecodeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		72081C6C79D0DF28DD97110C /* Pods-AFNetWorking_LearnRecode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNetWorking_LearnRecode.release.xcconfig"; path = "Target Support Files/Pods-AFNetWorking_LearnRecode/Pods-AFNetWorking_LearnRecode.release.xcconfig"; sourceTree = "<group>"; };
+		C4531EE45193B3D4804122D8 /* Pods-AFNetWorking_LearnRecodeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNetWorking_LearnRecodeTests.release.xcconfig"; path = "Target Support Files/Pods-AFNetWorking_LearnRecodeTests/Pods-AFNetWorking_LearnRecodeTests.release.xcconfig"; sourceTree = "<group>"; };
+		D4A52ED0254A6E250062FBC6 /* AFNetWorking_LearnRecode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AFNetWorking_LearnRecode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4A52ED3254A6E250062FBC6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D4A52ED4254A6E250062FBC6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D4A52ED6254A6E250062FBC6 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		D4A52ED7254A6E250062FBC6 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		D4A52ED9254A6E250062FBC6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D4A52EDA254A6E250062FBC6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D4A52EDD254A6E250062FBC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D4A52EDF254A6E2A0062FBC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4A52EE2254A6E2A0062FBC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D4A52EE4254A6E2A0062FBC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4A52EE5254A6E2A0062FBC6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D4A52EEB254A6E2A0062FBC6 /* AFNetWorking_LearnRecodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AFNetWorking_LearnRecodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4A52EEF254A6E2A0062FBC6 /* AFNetWorking_LearnRecodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFNetWorking_LearnRecodeTests.m; sourceTree = "<group>"; };
+		D4A52EF1254A6E2A0062FBC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4A52EF6254A6E2A0062FBC6 /* AFNetWorking_LearnRecodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AFNetWorking_LearnRecodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4A52EFA254A6E2A0062FBC6 /* AFNetWorking_LearnRecodeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFNetWorking_LearnRecodeUITests.m; sourceTree = "<group>"; };
+		D4A52EFC254A6E2A0062FBC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5376FA9B8836475D59D5791 /* Pods-AFNetWorking_LearnRecode-AFNetWorking_LearnRecodeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNetWorking_LearnRecode-AFNetWorking_LearnRecodeUITests.release.xcconfig"; path = "Target Support Files/Pods-AFNetWorking_LearnRecode-AFNetWorking_LearnRecodeUITests/Pods-AFNetWorking_LearnRecode-AFNetWorking_LearnRecodeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F71E910D965230006A850615 /* Pods-AFNetWorking_LearnRecode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNetWorking_LearnRecode.debug.xcconfig"; path = "Target Support Files/Pods-AFNetWorking_LearnRecode/Pods-AFNetWorking_LearnRecode.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4A52ECD254A6E250062FBC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C43E9737F2674FE922FC28EF /* Pods_AFNetWorking_LearnRecode.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4A52EE8254A6E2A0062FBC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C24A11B1A1327F74979A0E4 /* Pods_AFNetWorking_LearnRecodeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4A52EF3254A6E2A0062FBC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3B41D5E58348A1F41315ED5 /* Pods_AFNetWorking_LearnRecode_AFNetWorking_LearnRecodeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43C89104752F18C984E4ADB4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D168390CC60B6481155226A /* Pods_AFNetWorking_LearnRecode.framework */,
+				5C8F09CA818BA311CDDB2EF0 /* Pods_AFNetWorking_LearnRecode_AFNetWorking_LearnRecodeUITests.framework */,
+				45AC92472A19F735EC9346A9 /* Pods_AFNetWorking_LearnRecodeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C46461F3BA1BA040360A5FB0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F71E910D965230006A850615 /* Pods-AFNetWorking_LearnRecode.debug.xcconfig */,
+				72081C6C79D0DF28DD97110C /* Pods-AFNetWorking_LearnRecode.release.xcconfig */,
+				51059AF226824F56D62FEB7C /* Pods-AFNetWorking_LearnRecode-AFNetWorking_LearnRecodeUITests.debug.xcconfig */,
+				F5376FA9B8836475D59D5791 /* Pods-AFNetWorking_LearnRecode-AFNetWorking_LearnRecodeUITests.release.xcconfig */,
+				6F8D72E55F1D1C8C408BC182 /* Pods-AFNetWorking_LearnRecodeTests.debug.xcconfig */,
+				C4531EE45193B3D4804122D8 /* Pods-AFNetWorking_LearnRecodeTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D4A52EC7254A6E250062FBC6 = {
+			isa = PBXGroup;
+			children = (
+				D4A52ED2254A6E250062FBC6 /* AFNetWorking_LearnRecode */,
+				D4A52EEE254A6E2A0062FBC6 /* AFNetWorking_LearnRecodeTests */,
+				D4A52EF9254A6E2A0062FBC6 /* AFNetWorking_LearnRecodeUITests */,
+				D4A52ED1254A6E250062FBC6 /* Products */,
+				C46461F3BA1BA040360A5FB0 /* Pods */,
+				43C89104752F18C984E4ADB4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D4A52ED1254A6E250062FBC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4A52ED0254A6E250062FBC6 /* AFNetWorking_LearnRecode.app */,
+				D4A52EEB254A6E2A0062FBC6 /* AFNetWorking_LearnRecodeTests.xctest */,
+				D4A52EF6254A6E2A0062FBC6 /* AFNetWorking_LearnRecodeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4A52ED2254A6E250062FBC6 /* AFNetWorking_LearnRecode */ = {
+			isa = PBXGroup;
+			children = (
+				D4A52ED3254A6E250062FBC6 /* AppDelegate.h */,
+				D4A52ED4254A6E250062FBC6 /* AppDelegate.m */,
+				D4A52ED6254A6E250062FBC6 /* SceneDelegate.h */,
+				D4A52ED7254A6E250062FBC6 /* SceneDelegate.m */,
+				D4A52ED9254A6E250062FBC6 /* ViewController.h */,
+				D4A52EDA254A6E250062FBC6 /* ViewController.m */,
+				D4A52EDC254A6E250062FBC6 /* Main.storyboard */,
+				D4A52EDF254A6E2A0062FBC6 /* Assets.xcassets */,
+				D4A52EE1254A6E2A0062FBC6 /* LaunchScreen.storyboard */,
+				D4A52EE4254A6E2A0062FBC6 /* Info.plist */,
+				D4A52EE5254A6E2A0062FBC6 /* main.m */,
+			);
+			path = AFNetWorking_LearnRecode;
+			sourceTree = "<group>";
+		};
+		D4A52EEE254A6E2A0062FBC6 /* AFNetWorking_LearnRecodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4A52EEF254A6E2A0062FBC6 /* AFNetWorking_LearnRecodeTests.m */,
+				D4A52EF1254A6E2A0062FBC6 /* Info.plist */,
+			);
+			path = AFNetWorking_LearnRecodeTests;
+			sourceTree = "<group>";
+		};
+		D4A52EF9254A6E2A0062FBC6 /* AFNetWorking_LearnRecodeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D4A52EFA254A6E2A0062FBC6 /* AFNetWorking_LearnRecodeUITests.m */,
+				D4A52EFC254A6E2A0062FBC6 /* Info.plist */,
+			);
+			path = AFNetWorking_LearnRecodeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4A52ECF254A6E250062FBC6 /* AFNetWorking_LearnRecode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4A52EFF254A6E2A0062FBC6 /* Build configuration list for PBXNativeTarget "AFNetWorking_LearnRecode" */;
+			buildPhases = (
+				8A0C94CE73453390908F1211 /* [CP] Check Pods Manifest.lock */,
+				D4A52ECC254A6E250062FBC6 /* Sources */,
+				D4A52ECD254A6E250062FBC6 /* Frameworks */,
+				D4A52ECE254A6E250062FBC6 /* Resources */,
+				A262010754B880330B5ABD8B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AFNetWorking_LearnRecode;
+			productName = AFNetWorking_LearnRecode;
+			productReference = D4A52ED0254A6E250062FBC6 /* AFNetWorking_LearnRecode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4A52EEA254A6E2A0062FBC6 /* AFNetWorking_LearnRecodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4A52F02254A6E2A0062FBC6 /* Build configuration list for PBXNativeTarget "AFNetWorking_LearnRecodeTests" */;
+			buildPhases = (
+				6A05CCF795A308C405E1F16B /* [CP] Check Pods Manifest.lock */,
+				D4A52EE7254A6E2A0062FBC6 /* Sources */,
+				D4A52EE8254A6E2A0062FBC6 /* Frameworks */,
+				D4A52EE9254A6E2A0062FBC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4A52EED254A6E2A0062FBC6 /* PBXTargetDependency */,
+			);
+			name = AFNetWorking_LearnRecodeTests;
+			productName = AFNetWorking_LearnRecodeTests;
+			productReference = D4A52EEB254A6E2A0062FBC6 /* AFNetWorking_LearnRecodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D4A52EF5254A6E2A0062FBC6 /* AFNetWorking_LearnRecodeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4A52F05254A6E2A0062FBC6 /* Build configuration list for PBXNativeTarget "AFNetWorking_LearnRecodeUITests" */;
+			buildPhases = (
+				CFA7A19D48CA5EFF4AEFFDE8 /* [CP] Check Pods Manifest.lock */,
+				D4A52EF2254A6E2A0062FBC6 /* Sources */,
+				D4A52EF3254A6E2A0062FBC6 /* Frameworks */,
+				D4A52EF4254A6E2A0062FBC6 /* Resources */,
+				A427B31940ED817DDB3CE56B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4A52EF8254A6E2A0062FBC6 /* PBXTargetDependency */,
+			);
+			name = AFNetWorking_LearnRecodeUITests;
+			productName = AFNetWorking_LearnRecodeUITests;
+			productReference = D4A52EF6254A6E2A0062FBC6 /* AFNetWorking_LearnRecodeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4A52EC8254A6E250062FBC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = YDKJ;
+				TargetAttributes = {
+					D4A52ECF254A6E250062FBC6 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					D4A52EEA254A6E2A0062FBC6 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = D4A52ECF254A6E250062FBC6;
+					};
+					D4A52EF5254A6E2A0062FBC6 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = D4A52ECF254A6E250062FBC6;
+					};
+				};
+			};
+			buildConfigurationList = D4A52ECB254A6E250062FBC6 /* Build configuration list for PBXProject "AFNetWorking_LearnRecode" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4A52EC7254A6E250062FBC6;
+			productRefGroup = D4A52ED1254A6E250062FBC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4A52ECF254A6E250062FBC6 /* AFNetWorking_LearnRecode */,
+				D4A52EEA254A6E2A0062FBC6 /* AFNetWorking_LearnRecodeTests */,
+				D4A52EF5254A6E2A0062FBC6 /* AFNetWorking_LearnRecodeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4A52ECE254A6E250062FBC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4A52EE3254A6E2A0062FBC6 /* LaunchScreen.storyboard in Resources */,
+				D4A52EE0254A6E2A0062FBC6 /* Assets.xcassets in Resources */,
+				D4A52EDE254A6E250062FBC6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4A52EE9254A6E2A0062FBC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4A52EF4254A6E2A0062FBC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6A05CCF795A308C405E1F16B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AFNetWorking_LearnRecodeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A0C94CE73453390908F1211 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AFNetWorking_LearnRecode-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A262010754B880330B5ABD8B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AFNetWorking_LearnRecode/Pods-AFNetWorking_LearnRecode-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AFNetWorking_LearnRecode/Pods-AFNetWorking_LearnRecode-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AFNetWorking_LearnRecode/Pods-AFNetWorking_LearnRecode-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A427B31940ED817DDB3CE56B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AFNetWorking_LearnRecode-AFNetWorking_LearnRecodeUITests/Pods-AFNetWorking_LearnRecode-AFNetWorking_LearnRecodeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AFNetWorking_LearnRecode-AFNetWorking_LearnRecodeUITests/Pods-AFNetWorking_LearnRecode-AFNetWorking_LearnRecodeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AFNetWorking_LearnRecode-AFNetWorking_LearnRecodeUITests/Pods-AFNetWorking_LearnRecode-AFNetWorking_LearnRecodeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFA7A19D48CA5EFF4AEFFDE8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AFNetWorking_LearnRecode-AFNetWorking_LearnRecodeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4A52ECC254A6E250062FBC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4A52EDB254A6E250062FBC6 /* ViewController.m in Sources */,
+				D4A52ED5254A6E250062FBC6 /* AppDelegate.m in Sources */,
+				D4A52EE6254A6E2A0062FBC6 /* main.m in Sources */,
+				D4A52ED8254A6E250062FBC6 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4A52EE7254A6E2A0062FBC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4A52EF0254A6E2A0062FBC6 /* AFNetWorking_LearnRecodeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4A52EF2254A6E2A0062FBC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4A52EFB254A6E2A0062FBC6 /* AFNetWorking_LearnRecodeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4A52EED254A6E2A0062FBC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4A52ECF254A6E250062FBC6 /* AFNetWorking_LearnRecode */;
+			targetProxy = D4A52EEC254A6E2A0062FBC6 /* PBXContainerItemProxy */;
+		};
+		D4A52EF8254A6E2A0062FBC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4A52ECF254A6E250062FBC6 /* AFNetWorking_LearnRecode */;
+			targetProxy = D4A52EF7254A6E2A0062FBC6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D4A52EDC254A6E250062FBC6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4A52EDD254A6E250062FBC6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D4A52EE1254A6E2A0062FBC6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4A52EE2254A6E2A0062FBC6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4A52EFD254A6E2A0062FBC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D4A52EFE254A6E2A0062FBC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4A52F00254A6E2A0062FBC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F71E910D965230006A850615 /* Pods-AFNetWorking_LearnRecode.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AFNetWorking_LearnRecode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "penguin.AFNetWorking-LearnRecode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D4A52F01254A6E2A0062FBC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72081C6C79D0DF28DD97110C /* Pods-AFNetWorking_LearnRecode.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AFNetWorking_LearnRecode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "penguin.AFNetWorking-LearnRecode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D4A52F03254A6E2A0062FBC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F8D72E55F1D1C8C408BC182 /* Pods-AFNetWorking_LearnRecodeTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AFNetWorking_LearnRecodeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "penguin.AFNetWorking-LearnRecodeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AFNetWorking_LearnRecode.app/AFNetWorking_LearnRecode";
+			};
+			name = Debug;
+		};
+		D4A52F04254A6E2A0062FBC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4531EE45193B3D4804122D8 /* Pods-AFNetWorking_LearnRecodeTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AFNetWorking_LearnRecodeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "penguin.AFNetWorking-LearnRecodeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AFNetWorking_LearnRecode.app/AFNetWorking_LearnRecode";
+			};
+			name = Release;
+		};
+		D4A52F06254A6E2A0062FBC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51059AF226824F56D62FEB7C /* Pods-AFNetWorking_LearnRecode-AFNetWorking_LearnRecodeUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AFNetWorking_LearnRecodeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "penguin.AFNetWorking-LearnRecodeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AFNetWorking_LearnRecode;
+			};
+			name = Debug;
+		};
+		D4A52F07254A6E2A0062FBC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5376FA9B8836475D59D5791 /* Pods-AFNetWorking_LearnRecode-AFNetWorking_LearnRecodeUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AFNetWorking_LearnRecodeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "penguin.AFNetWorking-LearnRecodeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AFNetWorking_LearnRecode;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4A52ECB254A6E250062FBC6 /* Build configuration list for PBXProject "AFNetWorking_LearnRecode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4A52EFD254A6E2A0062FBC6 /* Debug */,
+				D4A52EFE254A6E2A0062FBC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4A52EFF254A6E2A0062FBC6 /* Build configuration list for PBXNativeTarget "AFNetWorking_LearnRecode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4A52F00254A6E2A0062FBC6 /* Debug */,
+				D4A52F01254A6E2A0062FBC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4A52F02254A6E2A0062FBC6 /* Build configuration list for PBXNativeTarget "AFNetWorking_LearnRecodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4A52F03254A6E2A0062FBC6 /* Debug */,
+				D4A52F04254A6E2A0062FBC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4A52F05254A6E2A0062FBC6 /* Build configuration list for PBXNativeTarget "AFNetWorking_LearnRecodeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4A52F06254A6E2A0062FBC6 /* Debug */,
+				D4A52F07254A6E2A0062FBC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4A52EC8254A6E250062FBC6 /* Project object */;
+}

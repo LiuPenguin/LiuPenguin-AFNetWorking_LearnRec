@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_AFNetWorking_LearnRecode_AFNetWorking_LearnRecodeUITests : NSObject
+@end
+@implementation PodsDummy_Pods_AFNetWorking_LearnRecode_AFNetWorking_LearnRecodeUITests
+@end
